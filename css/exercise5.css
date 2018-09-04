@@ -1,0 +1,20 @@
+.img-item {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+.main-title {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-left: 1.66%;
+}
+
+.main-subtitle {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1.66%;
+}
+
+hr {    
+    border: 2px solid whitesmoke;
+}
