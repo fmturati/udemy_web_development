@@ -8,13 +8,15 @@ while (numbers < 19){
 }
 
 
-// 2. Print all numbers between 10 and 40;
+// 2. Print all even numbers between 10 and 40;
 
-var numbers = 10;
+var numbers = 11;
 console.log("PRINT ALL EVEN NUMBERS BETWEEN 10 AND 40");
 while (numbers <= 40){
-    console.log(numbers);
-    numbers+=2;
+    if(numbers % 2 === 0){
+        console.log(numbers);               
+    } 
+    numbers+=1;
 }
 
 // 3. Print all odd numbers between 300 and 333;
