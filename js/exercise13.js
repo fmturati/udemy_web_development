@@ -45,7 +45,7 @@ for (var i = 300; i <= 333; i++){
 
 console.log("4. PRINT ALL NUMBERS DIVISIBLE BY 5 AND 3 BETWEEN 5 AND 50:");
 for (var i = 5; i <= 50; i++){
-    if(i % 5 === 0 & i % 3 ===0){
+    if(i % 5 === 0 && i % 3 ===0){
         console.log(i);
     }
 }
